@@ -1,0 +1,696 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+
+    height: 4000px;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #999BA2;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #D8D3D2;
+}
+
+
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    opacity: .8;
+}
+.header{
+    width: 100%;
+    height: 600px;
+    background-color: #333646  ;
+    overflow: hidden;
+    color: #fff;
+
+    background-image: url('../img/header4.jpg');
+    background-size: cover;
+    background-position: center;
+
+    
+
+    
+
+}
+section .on{
+    width: 40%;
+    height: 100%;
+
+    background-image: url('../img/Mypic-2.jpg');
+    background-size: cover;
+    background-position: center;
+
+    margin: auto;
+    overflow: hidden;
+    margin-top: -20%;
+    
+}
+section .logo{
+    float: left;
+    font-style: italic;
+  
+    
+}
+section .logo, section .myNav{
+    padding-top: 5%;
+    
+}
+
+section .logo h1{
+    font-weight: 600;
+    font-size: 33px;
+}
+section .logo .my{
+    color: #EFA649;
+}
+section .myNav{
+    float: right;
+   
+}
+
+section .myNav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+section .myNav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+section .myNav li a:hover{
+    color: #999BA2;
+}
+
+.clr{
+    clear: both;
+}
+section .banner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  
+
+}
+section .banner .my-name, section .banner .intro{
+
+    width: 40%;
+    height: 100%;
+}
+section .banner .my-name{
+    float: left;
+    padding-top: 3%;
+}
+
+section .banner .my-name h2{
+    font-size: 80px;
+    margin-bottom: 0;
+    color: #D8D3D2;
+  
+}
+section .banner .my-name h2 .h{
+    border-bottom: 7px solid #EFA649;
+    
+  
+}
+
+section .banner .my-name .banner-icons{
+    margin-top: 20%;
+   
+}
+
+section .banner .my-name .fab{
+    padding: 0 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+section .banner .my-name .fab:hover{
+  color: #EFA649;
+}
+
+
+
+section .banner .intro{
+    float: right;
+    padding-top: 5%;
+    margin-right: -8%;
+}
+section .banner .intro h5{
+    font-size: 14px;
+    color: #999BA2;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+section .banner .intro h3{
+    margin-top: 6%;
+    color: #D8D3D2;
+    font-size: 40px;
+}
+
+section .banner .intro p{
+    color: #999BA2;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+section .banner .intro .my-story{
+    color: #EFA649;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+   
+}
+
+section .banner .intro .my-story i{
+    margin-left: 5%;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+section .banner .intro .my-story i:hover{
+    color: #fff;
+}
+
+.contact{
+    width: 100%;
+    height: 800px;
+    background-color: #252734;
+    color: #D8D3D2;
+    padding-top: 10%;
+    
+}
+.contact .contact-left, 
+.contact .contact-right{
+    width: 45%;
+    height: 100%;
+
+}
+.contact .contact-left{
+    float: left;
+}
+.contact .contact-left .contact-span{
+    color: #999BA2;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+.contact .contact-left h2{
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.contact .contact-left p{
+    margin-top: 5%;
+    line-height: 1.9;
+    font-size: 14px;
+    margin-bottom: 15%;
+}
+
+.contact .contact-left a{
+    text-decoration: none;
+    color: #EFA649;
+    border-bottom: 2px solid #EFA649;
+    
+}
+
+.contact .contact-left i{
+    margin-left: 5%;
+    color: #EFA649;
+    cursor: pointer;
+}
+
+
+.contact .contact-right{
+    float: right;
+}
+
+.contact .contact-right p:nth-of-type(1){
+    font-size: 30px;
+}
+.contact .contact-right p:nth-of-type(2){
+    font-size: 14px;
+    color: #999BA2;
+    line-height: 1.9;
+}
+.contact .contact-right .years-exp,
+.contact .contact-right .satified-clients{
+    display: inline-block;
+    padding: 0 10px;
+}
+/* .contact .contact-right .years-exp h5 {
+    font-size: 13px;
+} */
+.contact .contact-right .years-exp .years{
+    font-size: 60px;
+    color: #EFA649;
+    height: 10px;
+    display: inline-block;
+   
+}
+.contact .contact-right .years-exp .of-exp{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.contact .contact-right .satified-clients .clients{
+    font-size: 60px;
+    color: #EFA649;
+    height: 10px;
+    display: inline-block;
+   
+}
+.contact .contact-right .satified-clients .satisfied {
+    display: inline-block;
+    font-size: 13px;
+}
+
+
+
+.logos{
+    width: 100%;
+    height: 1900px;
+    background-color: #333646;
+    color: #D8D3D2;
+    position: relative;
+    
+}
+.logos .cont{
+    width: 100%;
+    height: 200px;
+   
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logos .left, 
+.logos .midd, 
+.logos .right{
+    width: 20%;
+    height: 300px;
+    background-color: #424657;
+    display: inline-block;
+    text-align: center;
+    margin-left: 2%;
+    padding-top: 10%;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+
+
+
+.logos .left h4, 
+.logos .midd h4, 
+.logos .right h4{
+    margin-bottom: 10%;
+    font-weight: 500;
+}
+
+.logos .left{
+    background-color: #FFAF29;
+}
+
+
+ 
+.logos .midd span, 
+.logos .right span{
+
+    font-size: 12px;
+    color: #EFA649;
+   
+}
+
+
+.portfolio{
+    width: 100%;
+    height: 100%;
+    padding-top: 29%;
+    
+}
+.portfolio .port-left, .portfolio .port-right{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+.portfolio .port-left .left-top .port-span{
+    color: #999BA2;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.portfolio .port-left .left-top h2{
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.portfolio .port-left .left-top p{
+    margin-top: 5%;
+    line-height: 1.9;
+    font-size: 14px;
+    margin-bottom: 15%;
+}
+
+.portfolio .port-left .left-top a{
+    text-decoration: none;
+    color: #EFA649;
+    border-bottom: 2px solid #EFA649;
+}
+
+.portfolio .port-left .left-top i{
+    margin-left: 5%;
+    color: #EFA649;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.portfolio .port-left .left-top i:hover{
+    color: #fff;
+}
+
+.portfolio .port-right {
+    float: right;
+}
+
+.portfolio .port-right .right-down{
+    margin-top: 20%;
+}
+.portfolio .port-left .left-down{
+    margin-top: 30%;
+}
+
+
+.blog{
+    width: 100%;
+    height: 1000px;
+    background-color: #252734;
+    color: #D8D3D2;
+    padding-top: 10%;
+}
+.blog .blog-left{
+    float: left;
+}
+.blog .blog-left .blog-span{
+    color: #999BA2;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.blog .blog-left h2{
+    margin-top: 5%;
+}
+
+.blog .blog-right{
+    width: 50%;
+    height: 30%;
+    float: right;
+    position: relative;
+    color: #fff;
+   
+  
+    
+    
+}
+.blog .blog-right .item {
+    border-bottom: 1px solid rgba(211, 211, 211, 0.157);
+    padding: 20px 0;
+}
+.blog .blog-right .item .span,
+.blog .blog-right .item p,
+.blog .blog-right .item .i{
+    display: inline-block;
+}
+.blog .blog-right .item .span{
+    font-size: 13px;
+    color: #999BA2;
+}
+.blog .blog-right .item p{
+    margin-left: 20%;
+}
+
+.blog .blog-right .item .i{
+    position: absolute;
+    right: 0;
+    color: #EFA649;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.blog .blog-right .item .i:hover{
+    color: #fff;
+}
+.carsoul{
+    margin-top: 30%;
+    width: 100%;
+    height: 400px;
+   
+}
+
+.carsoul .pic{
+    width: 32%;
+    float: left;
+
+}
+.carsoul .pic img{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+.carsoul .article{
+    width: 60%;
+    float: right;
+    margin-top: -3%;
+}
+.carsoul .article h1{
+    color: rgba(153, 155, 162, 0.623);
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.carsoul .article p{
+
+    margin-top: 5%;
+    color: #fff;
+    font-size: 28px;
+}
+.carsoul .article h5{
+    font-size: 15px;
+    color: #fff;
+}
+.carsoul .article span{
+    font-size: 13px;
+    color: #999BA2;
+}
+
+.talk{
+    width: 100%;
+    height: 800px;
+    background: #333646;
+    padding-top: 10%;
+    color: #D8D3D2;
+    position: relative;
+    
+}
+.talk .lets-talk {
+    float: left;
+}
+.talk .lets-talk h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.talk .lets-talk p{
+    margin-top: 3%;
+    color: #999BA2;
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 10%;
+}
+.talk .lets-talk a{
+
+    text-decoration: none;
+    color: #EFA649;
+    border-bottom: 2px solid #EFA649;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+   
+}
+.talk .lets-talk a:hover{
+  
+    color: #fff;
+    border-bottom: 2px solid #fff;
+  
+}
+.talk .lets-talk i{
+    margin-left: 5%;
+    color: #EFA649;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.talk .lets-talk i:hover{
+  
+    color: #fff;
+  
+}
+
+.talk .form{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    position: relative;
+  
+}
+
+.talk .form h1{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.talk .form input{
+    background: transparent;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.157);
+    margin-bottom: 10%;
+    padding: 5% 0 5% 3%;
+    color: #fff;
+    
+}
+
+/* .talk .form input::placeholder{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+} */
+
+
+.talk .form .validation-border{
+    border: 1px solid red;
+}
+.talk .form #input1{
+    color: #D8D3D2;
+    font-size: 14px;
+    font-weight: normal;
+}
+.talk .form #inp_2{
+    color: #D8D3D2;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+.talk .form h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+.talk .form button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    position: absolute;
+    left: 300px;
+    bottom: 5px;
+   
+}
+.talk .form button i{
+  color: #EFA649;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+.talk .form i:hover{
+    
+    color: #fff;
+  }
+
+.talk .footer1{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.talk .footer1 p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.talk .footer1 p span{
+    color: #999BA2;
+}
+
+.talk .footer1 .banner-icons .fab{
+    padding: 0 10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.talk .footer1 .banner-icons .fab:hover{
+  color: #EFA649;
+}
+
+
+
+ 
